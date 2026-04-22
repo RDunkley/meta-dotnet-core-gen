@@ -1206,6 +1206,11 @@
       <arch link="https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/10.0.6/aspnetcore-runtime-10.0.6-linux-arm64.tar.gz" md5="27fd4b7dc4fe264b6a2b1f1114c30c71" sha256="d17024ac1c33e2457a7eb01d646d46d41c5dfb28e6da76b6115a58756881a051" sha512="8dee4e65a4a76e833867616df508a39c2f8a710269a2361e47acb73d09080e50405c1d84206327ff5df127a9f206451b0cedf1451d43144e440d9c4e350e9497" target="arm64" />
       <arch link="https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/10.0.6/aspnetcore-runtime-10.0.6-linux-x64.tar.gz" md5="11800b2b82999e5eb83290184f59535e" sha256="5b7d7c26b39b5bff981306d2fb180b949f06dc8156781781cdc8013ad754ca59" sha512="89eeb16d1971dc0a854754a3bc4cebb637a959c889f56216af292580b76fbff01c329dd0933896b74ef6a2d4bc56b9c4bb605196d5c0520ca43027421d155365" target="x64" />
     </build>
+    <build version="7">
+      <arch link="https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/10.0.7/aspnetcore-runtime-10.0.7-linux-arm.tar.gz" md5="4d456955e2d63e7fadfb44d08f6363cb" sha256="79c4f9fbc5d028c939acb8bdc3899d1e788e2bad032d9a09f22eb21c9a9b8d16" sha512="38cf6fe4b23e00dc3236d3a10f13a533f0ba0c28dd85979691e2e989369d9760f816ae2f88a871f9c71389c8a4afc92936dae42c1a431c02ce515c5a867d70ce" target="arm" />
+      <arch link="https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/10.0.7/aspnetcore-runtime-10.0.7-linux-arm64.tar.gz" md5="8c26ba5b7a4cabe5753eefa5f2260f11" sha256="5c95e878081d8b0476f36ff141a965573cecbc37f2e0555d2374b49d67572b00" sha512="e7a175641becee2e6defa97ddb96261d53137eed485c62f5e367960bdd0b012f718551d277eabe606efcfc2275601fba4b499e90ba71bbab23c50eff688f9f6f" target="arm64" />
+      <arch link="https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/10.0.7/aspnetcore-runtime-10.0.7-linux-x64.tar.gz" md5="b3bc04d8b568a44d29bdaa6e766fa939" sha256="e7371614247bbc481196434d3cc2095e187b569c1929ab5c1af056682f1ca512" sha512="378a24fb4327275e0a46039bd3719b02d2d6b1c7bf4b0ebcabc4dd6c65a818c897790b8a0b7fa1712b021c4dd0a97f995fe6037fa92b2e909e43266501d6cf1a" target="x64" />
+    </build>
   </runtime>
   <runtime name="dotnet" version="10.0">
     <build version="0">
@@ -1242,6 +1247,11 @@
       <arch link="https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.6/dotnet-runtime-10.0.6-linux-arm.tar.gz" md5="f8f87abc326ad88dd974e76ff0845b93" sha256="5767a0fcaadcb901a5cbddd6f9d5ce0963f8bb2cdd1919d9b4a2b97496a02ee7" sha512="dd6fa757802826e5fd67435a16020cfab0975d2ad1b516db6902f4210a4de519a4e96e9c5ef2ce28016d785eb21ab4d4a2dd6137cb0af898accd153804eefa3c" target="arm" />
       <arch link="https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.6/dotnet-runtime-10.0.6-linux-arm64.tar.gz" md5="559c72242e3d8b2e6a86a6bdeb7e0b3c" sha256="5802419ba80a94899215b675af0a280bf7d57658ba07848d4a6d4d8986090ba0" sha512="d36caca304db069190b81026e3b4eb17222ca38bacd3ef98d74baf77e5874ee9da70bd2ed7cd2ad179d965a7e182f9527cbd30faf98f6d66117655328bc187b4" target="arm64" />
       <arch link="https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.6/dotnet-runtime-10.0.6-linux-x64.tar.gz" md5="9c218e3efdf00b9aff689fb7d9c1b076" sha256="bbc2ad3316cbab707eb59ca406f5a1e8c8f7953b4f1a870533fb42aee988d922" sha512="6e11e1f414203c24316f856a3e67b03b8b1dfd51b544371d0284ac86fa3dad14d903f75704d1f1f12b0b40175fdd95b3efb641bc354f1080b6408180eaa4f68c" target="x64" />
+    </build>
+    <build version="7">
+      <arch link="https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.7/dotnet-runtime-10.0.7-linux-arm.tar.gz" md5="c05df53951f5b628d231b83f1e97a4b1" sha256="022197ba766f61ca403db1210b56d47986f6d51a205afb2db34f027a27cd99c0" sha512="6dc1b80eaa1d0a10db4d35105a8c6a358b787703d3353289f7d9fe0c6af2e6420bb82aa1f5354c967fc2ddbc83aa223c9b7d9d5864a0c2bd0ce8656810b774ce" target="arm" />
+      <arch link="https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.7/dotnet-runtime-10.0.7-linux-arm64.tar.gz" md5="f1a4b07623e1554d67f9d6bde118f656" sha256="df43a2fdbb23b8692242e1838bcc2419faaeab613db950c7f1bf33f3b03cce1c" sha512="7f4b6d1746539e19415ca9a808e44e1f2697c77a31f3c5e6687ed3fc4d9d74c4c9367b1f26813d5db8347443f7c2b03ddb25101adcdfccd22d80e2796f131be9" target="arm64" />
+      <arch link="https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.7/dotnet-runtime-10.0.7-linux-x64.tar.gz" md5="4a5ee761ac9fb8e91362bd89bb1cb1b7" sha256="825c0e34e405314c225713990601908435cb9b10cd2292fc1174eb0cde513f87" sha512="7023ae9b580322566c1be1dc7711cca0dc18e7c8921a9dfe446df278e5fbd12f85f9cf77ad977fac0a07293dabd0878816934fd02d831545af9ff5e0786a5a83" target="x64" />
     </build>
   </runtime>
 </dotnet>
