@@ -37,7 +37,7 @@ namespace meta_dotnet_core_gen
 		///   Enumerates the various versions currently supported by meta-dotnet-core.
 		/// </summary>
 		/// <remarks>This app will generate bitbake recipes and .inc files for new versions, but it assumes a generic major version .inc file (Ex: dotnet-core_5.x.x.inc) has already been created.</remarks>
-		public static int[] SupportedVersions = new int[] { 8, 9, 10 };
+		public static int[] SupportedVersions = new int[] { 10, 11 };
 
 		static async Task Main(string[] args)
 		{
