@@ -167,7 +167,7 @@ namespace meta_dotnet_core_gen.Auto
 							else if (lines[i].StartsWith("SRC_URI[sha256sum]"))
 								lines[i] = $"SRC_URI[sha256sum] = \"{this.Sha256.ToLower()}\"";
 							else if (lines[i].StartsWith("SRC_URI"))
-								lines[i] = $"SRC_URI = \"{this.Link};subdir=dotnet-${{PV}}\"";
+								lines[i] = $"SRC_URI = \"{this.Link};subdir={Enum.GetName(runtime.Name).ToLower()}-${{PV}}\"";
 						}
 
 						File.WriteAllLines(filePath, lines);
